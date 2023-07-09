@@ -64,6 +64,13 @@ body {
     }
 }
 
+.agenda {
+    background-color: #f6a905;
+    width: 50rem;
+    padding: 5rem 5rem 5rem 5rem;
+    margin: 5rem 10% 5rem 10%;
+}
+
 .brand-logo {
     flex-basis: calc(20% - 20px);
     margin: 5px;
@@ -71,11 +78,11 @@ body {
 
 .card {
     background-color: #f6a905;
-
 }
 
 footer {
     background-color: #f6a905;
+    opacity: 0.9;
 }
 
 a {
