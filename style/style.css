@@ -34,6 +34,46 @@ body {
     font-family: 'roboto';
 }
 
+.brand-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #f7e9d0;
+    padding: 10px;
+}
+
+.brand-logo {
+    flex: 1;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .brand-bar {
+    display: none
+    }
+}
+
+@media (min-width: 768px) {
+    .brand-bar {
+      height: 4.5rem;
+      padding: 5px;
+    }
+}
+
+.brand-logo {
+    flex-basis: calc(20% - 20px);
+    margin: 5px;
+}
+
+.card {
+    background-color: #f6a905;
+
+}
+
 footer {
     background-color: #f6a905;
 }
